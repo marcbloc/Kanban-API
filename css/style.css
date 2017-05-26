@@ -1,4 +1,16 @@
-body {margin: 0;}
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+body {
+  margin: 0;
+  background-image: url("https://cdn.pixabay.com/photo/2017/05/12/08/29/coffee-2306471_960_720.jpg");
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+}
+
 * {box-sizing: border-box;}
 
 .ui-sortable {
@@ -14,7 +26,7 @@ body {margin: 0;}
   background-color: rgba(0,0,0,0.4);
   color: white;
 }
-/* BOARD */
+
 .board h1 {
   margin-left: 8px;
 }
@@ -24,10 +36,8 @@ body {margin: 0;}
   flex-wrap: nowrap;
 }
 
-
-/* COLUMN */
 .column {
-  order: 1;
+  border: 1;
   min-width: 300px;
   min-height: 50vh;
   background-color: lightgrey;
@@ -42,7 +52,7 @@ body {margin: 0;}
   display: block;
 }
 
-/* STYLE KARTY */
+
 .card {
   box-sizing: border-box;
   display: block;

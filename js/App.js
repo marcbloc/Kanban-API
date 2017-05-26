@@ -3,11 +3,9 @@ var myHeaders = {
 	'X-Client-Id': '1834',
 	'X-Auth-Token': '9f48b53d7e4c2f76e73f29a8cd27519b'
 };
-
 $.ajaxSetup({
 	headers: myHeaders;
 });
-
 function setupColumns(columns) {
 	columns.forEach(function (column) {
 		var col = new Column(column.id, column.name);
