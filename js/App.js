@@ -4,7 +4,7 @@ var myHeaders = {
 	'X-Auth-Token': '9f48b53d7e4c2f76e73f29a8cd27519b'
 };
 $.ajaxSetup({
-	headers: myHeaders;
+	headers: myHeaders 
 });
 function setupColumns(columns) {
 	columns.forEach(function (column) {
